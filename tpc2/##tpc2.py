@@ -6,7 +6,6 @@ import random
 from random import randrange
 
 tentativa=0
-
 numeroPensado= random.randrange(1,100)
 n=0
 
@@ -23,24 +22,18 @@ while n is not numeroPensado:
     n=n+1
     
 
-
-
 #2) Computador a adivinhar o numero escolhido pelo utilizador
         
 numeroPensado = input("introduzir numero pensado entre 0 a 100:")
 
-
 n = 50
 tentativa = 0
-
-
 
 while n is not numeroPensado :
     
     print("o numero advinhado foi:", n)
     
          
-        
     maior_ou_menor = input("Escreve '1' se o numero adivinhado for maior do que o pensado.  '-1' se o numero advinhado for menor do que  o pensado. Ou '0' se o numero adivinhado for o numero pensado: ")
     
     tentativa = tentativa + 1
@@ -50,8 +43,6 @@ while n is not numeroPensado :
         
         n = n + n//2
         
-        
-    
     
     elif maior_ou_menor =="-1":
         
